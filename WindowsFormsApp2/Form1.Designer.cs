@@ -39,6 +39,7 @@
             this.txtresult = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.btnClear = new System.Windows.Forms.Button();
+            this.btnOpen2form = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn1
@@ -138,11 +139,22 @@
             this.btnClear.UseVisualStyleBackColor = true;
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
+            // btnOpen2form
+            // 
+            this.btnOpen2form.Location = new System.Drawing.Point(549, 126);
+            this.btnOpen2form.Name = "btnOpen2form";
+            this.btnOpen2form.Size = new System.Drawing.Size(183, 60);
+            this.btnOpen2form.TabIndex = 11;
+            this.btnOpen2form.Text = "Open 2nd form";
+            this.btnOpen2form.UseVisualStyleBackColor = true;
+            this.btnOpen2form.Click += new System.EventHandler(this.btnOpen2form_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnOpen2form);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtresult);
@@ -174,6 +186,7 @@
         private System.Windows.Forms.TextBox txtresult;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btnClear;
+        private System.Windows.Forms.Button btnOpen2form;
     }
 }
 

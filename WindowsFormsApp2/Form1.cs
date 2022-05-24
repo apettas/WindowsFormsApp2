@@ -74,5 +74,10 @@ namespace WindowsFormsApp2
             txtresult.Text = "";
            
         }
+
+        private void btnOpen2form_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

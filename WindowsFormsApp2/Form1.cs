@@ -16,5 +16,63 @@ namespace WindowsFormsApp2
         {
             InitializeComponent();
         }
+
+        private void btn1_Click(object sender, EventArgs e)
+        {
+            lbl1.Text = ("εδώ είμαι");
+            double one =0;
+            double two =0;
+            double result;
+
+
+
+            one = double.Parse(txt1.Text);
+            
+            two = double.Parse (txt2.Text);
+
+            result = one + two;
+
+
+
+
+            //txtresult.Text = Convert.ToString( result);
+            txtresult.Text = result.ToString();
+
+
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            txt1.Text = "";
+            txt2.Text = "";
+            txtresult.Text = "";
+           
+        }
     }
 }
